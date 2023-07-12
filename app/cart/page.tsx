@@ -71,7 +71,7 @@ const Cart = () => {
 
       {cartStore.cart.length > 0 ? (
         <div>
-          <p className="text-sm font-medium">Total: {totalPrice}</p>
+          <p className="text-sm font-medium">Total: {totalPrice}৳</p>
           <button
             onClick={() => {
               cartStore.clearCart()
