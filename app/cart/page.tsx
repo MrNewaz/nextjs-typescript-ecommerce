@@ -63,7 +63,7 @@ const Cart = () => {
               </div>
             </div>
             <p className="text-sm">
-              Total: {item.price !== null ? (item.price * item.quantity): 'N/A'}৳
+              Item price: {item.price !== null ? item.price : 'N/A'}৳
             </p>
           </div>
         </div>
